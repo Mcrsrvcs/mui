@@ -1,0 +1,36 @@
+.borderx{
+  border: 2px solid black;
+}
+
+.pos-fix{
+  /* display: block; */
+  width: 100%;
+  position: fixed;
+}
+
+.bg-gif-web{
+  background:url('https://globaleducation.s3.ap-south-1.amazonaws.com/globaledu/gif/web-hosting.gif');
+}
+
+.bg-gra-gif{
+  background: url('https://cdn.dribbble.com/users/1770290/screenshots/6171169/bg_78.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-blur{
+  background: rgba(128, 121, 121, 0.38);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 36, 155, 0.671);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 0px solid rgba(255, 255, 255, 0.418);
+}
+
+/* .txt-gra{
+  color:linear-gradient(red,blue)
+} */
+
+a{
+  cursor:pointer;
+}
