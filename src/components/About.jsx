@@ -1,6 +1,7 @@
 import React from 'react'
 import Technologies from './Technologies'
 import getorder from '../imgs/givemeorder1.jpg'
+import portfolio from '../imgs/portfolio.JPG'
 
 function About() {
   return (
@@ -101,7 +102,7 @@ function About() {
             <img
               class="object-cover object-center rounded"
               alt="hero"
-              src="https://dummyimage.com/720x600"
+              src={portfolio}
             />
           </div>
         </div>

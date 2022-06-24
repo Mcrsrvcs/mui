@@ -46,18 +46,19 @@ function Header(props) {
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
+                    d="M12 18L18 6M6 6l12 12"
                   />
                 </svg>
               </button>
             </div>
             <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-end">
               <div class="flex-shrink-0 flex items-center  ">
-                  <img
-                  class="block rounded-md px-2 py-1 h-10 w-auto"
-                  src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-                  alt="Workflow"
-                />
+              <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">Webstocks</span>
+      </a>
               </div>
               <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-end">
                 <div class="hidden sm:block sm:ml-6">
